@@ -1,0 +1,213 @@
+*{
+
+    font-family: "inter";
+}
+
+#menusuperior{
+    color: white;
+    background-color: #333;
+    background-image: url(Imagens/fundo.svg);
+}
+
+#logo{
+    margin: 52px 0 0 56px;
+}
+
+#title1{ 
+    padding: 52px 0 0 172px;
+
+}
+
+#title2{
+    padding: 35px 0 151px 172px;
+    margin: 0;
+}
+
+#teste{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 15px 0 15px 75px;
+    padding: 15px;
+
+}
+
+.textoinf{
+    display: flex;
+    align-items: center;
+}
+
+#depvideo{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: start;
+    columns: auto;
+    padding: 50px 0 100px 0;
+    
+}
+
+#video{
+
+    margin: 0 0 0 100px;
+}
+
+#textocima{
+    color: #247BA0;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */  
+    margin: 0; 
+   
+
+}
+
+#titlecard{
+    text-align: center;
+    /* H1 */
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+    color: white;
+    padding: 5%;
+
+}
+
+#carrossel{
+    background: #247BA0;
+    align-items: center;
+    justify-content: center;
+    justify-content: stretch;
+   
+}
+
+#divcard{
+   
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 50px 20px;
+}
+
+.card{
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px 00px 20px;
+    
+}
+
+.seta{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0,5;
+}
+    
+
+#setae{
+    display:none;
+
+}
+#bruna{
+    display:none;
+    
+}
+
+#titleform{
+    color: #383838;
+    text-align: center;
+    /* H1 */
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+    padding: 5%;
+
+}
+
+#formulario{
+
+    display: grid;
+    
+    justify-items: center;
+}
+
+
+
+input{
+    background: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 374px;
+    height: 22px;
+
+    
+
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+
+}
+
+input::placeholder {
+    color: black; /* Cor desejada para o texto de placeholder */
+
+}
+
+button{
+    margin: 0;
+    border-radius: 8px;
+    background: #247BA0;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #EAECE5;
+    width: 330px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button:hover{
+
+    background-color: 318fb8;
+    color: white;
+    transform: translateY(-5px);
+
+    box-shadow: 0px 15px 20px #21363f81;
+    transition-duration: 0,5s;
+
+}
+
+#butsub{
+
+    margin: 50px;
+    
+
+}
+
+#inputform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
